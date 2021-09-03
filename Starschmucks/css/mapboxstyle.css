@@ -1,0 +1,44 @@
+.mapbox {
+    width: 100%;
+    height: 100vh;
+}
+
+.navbar {
+    z-index: 1;
+}
+
+.showcase {
+    align-items: center;
+    z-index: 0;
+}
+
+#mapBox {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.right {
+    position: absolute;
+    right: 0%;
+    width: 70%;
+}
+
+.get-location ul {
+    margin: 0;
+    padding: 0;
+    padding-right: 5px;
+}
+.get-location li {
+    margin-top: 10px;
+} 
+
+.location-info {
+    width: 30%;
+}
+
+@media (max-width:576px) {
+    .right {
+        width: 100%;
+    }
+}
